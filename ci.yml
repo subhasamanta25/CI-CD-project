@@ -2,7 +2,7 @@ name: Python CI
 
 on:
 push:
-pull_request:
+pull_request: [ main ]
 workflow_dispatch:
 
 jobs:
